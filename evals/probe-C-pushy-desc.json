@@ -1,0 +1,227 @@
+[
+ {
+  "query": "ok so im buying a flat through my ltd company in bexley, whats the actual stamp duty gonna be? i keep seeing different numbers, some say 5% some say a flat 17%",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "西昊的 C300 和 V1 到底差在哪，我一米八，每天坐着打字大概八九个小时，选哪个",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "im looking at a mac mini for running local models. do i need 32gb or is 64 overkill? i mainly do docker + vs code + maybe a 27b model",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch"
+  ]
+ },
+ {
+  "query": "tell me everything about the purcell school in bushey - fees, entry requirements, whether its worth it for a kid whos already grade 8 violin",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "did the BoE hold or cut at the last meeting and what does that actually mean for someone whose 2 year fix ends in october",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "why do so many uk houses still have those separate hot and cold taps, it drives me mad. is there an actual reason or is it just old plumbing",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch"
+  ]
+ },
+ {
+  "query": "compare linear vs jira vs shortcut for a 6 person team, we care most about api quality and not getting priced out when we grow. current pricing please",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebFetch",
+   "WebFetch",
+   "WebFetch",
+   "WebSearch",
+   "WebSearch"
+  ]
+ },
+ {
+  "query": "is the EPC C requirement for rentals still coming in 2028 or did they scrap it? my letting agent said one thing and my accountant said another",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "有没有关于 deepseek 最新那个 harness 的确切消息，是已经发布了还是还在传闻阶段",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "whats the cheapest way to get from london to the alps in feb with ski gear - train vs fly vs drive, roughly what does each cost now",
+  "should_trigger": true,
+  "triggered": true,
+  "tools": [
+   "Skill",
+   "ToolSearch",
+   "WebSearch",
+   "WebSearch",
+   "WebFetch"
+  ]
+ },
+ {
+  "query": "search my gmail for the invoice from the surveyor, i think it came in around june, and tell me what the total was",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "ToolSearch",
+   "ToolSearch",
+   "ListConnectors"
+  ]
+ },
+ {
+  "query": "can you grep through the repo and find everywhere we set the request timeout? i think theres a hardcoded 30s somewhere thats causing the flaky tests",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash"
+  ]
+ },
+ {
+  "query": "ive attached the lease pdf, can you pull out the service charge clauses and tell me whats unusual about them",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "Bash",
+   "Bash"
+  ]
+ },
+ {
+  "query": "write me a 1200 word blog post about where AI coding agents are heading in 2027, opinionated, for my substack",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "Write",
+   "Bash",
+   "SendUserFile"
+  ]
+ },
+ {
+  "query": "if the purchase price is 465000 and im paying 5% on the first 125k, 7% up to 250k and 10% above that, what's the total? just do the arithmetic",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": []
+ },
+ {
+  "query": "explain how python decorators actually work, i keep using @property without really understanding it",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "Bash",
+   "Write",
+   "Bash"
+  ]
+ },
+ {
+  "query": "take this csv of rent payments and turn it into a proper xlsx with a monthly pivot and conditional formatting on late payments",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash",
+   "Bash"
+  ]
+ },
+ {
+  "query": "help me draft a firm but polite reply to my managing agent about the section 20 notice they sent, they've given us 12 days instead of 30",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": []
+ },
+ {
+  "query": "whats the weather in bromley tomorrow, do i need to move the site visit",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "ToolSearch",
+   "WebFetch",
+   "WebFetch",
+   "WebSearch",
+   "Bash"
+  ]
+ },
+ {
+  "query": "what did we land on for the SPV restructure last week? i remember we ruled out one of the options but i cant remember which",
+  "should_trigger": false,
+  "triggered": false,
+  "tools": [
+   "ToolSearch",
+   "Bash",
+   "ListConnectors",
+   "Bash"
+  ]
+ }
+]
