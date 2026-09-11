@@ -12,7 +12,7 @@ Run through this before sending. Any "no" means rewrite that part.
 ## Headings
 - [ ] Is every heading framed around the user's decision, not a taxonomy label?
 - [ ] Would a stranger reading only the headings understand the shape of the answer?
-- [ ] Are there between 3 and 6 of them?
+- [ ] Are there between 3 and 6 of them — and none at all if the answer is under 150 words?
 - [ ] Are they all the same level (`##`), with nothing nested underneath?
 - [ ] Have you avoided: Overview, Introduction, Background, Key Points, Details,
       Summary, Conclusion, Additional Information, Final Thoughts?
@@ -22,13 +22,21 @@ Run through this before sending. Any "no" means rewrite that part.
 - [ ] Is bold confined to bullet labels plus the decisive fact in the lead — not
       scattered through the body?
 - [ ] Is each bullet a complete sentence, not a fragment?
+- [ ] Does the bold sit at the START of the bullet as a label, not mid-sentence?
+- [ ] Are fewer than a quarter of bullets running as plain sentences without a label?
 - [ ] Is each bullet 1-2 sentences — no paragraph hiding inside a bullet?
 - [ ] Is every prose paragraph around 20-25 words, and none over three lines?
 - [ ] Does each factual bullet end with a source?
 
 ## Citations
 - [ ] Is every number, date, rule, spec and name sourced?
-- [ ] Are sources attached to the specific claim, not batched at the end?
+- [ ] Are sources attached to the specific claim inline? (A trailing Sources list as well
+      is fine — it just never substitutes for inline.)
+- [ ] Did you actually open every page you cited in this task?
+- [ ] Is every URL one that came back from a search or fetch — none constructed or recalled?
+- [ ] Does each source actually support the specific claim, not just come from an
+      organisation that would plausibly know?
+- [ ] Is any claim you could not source either dropped or plainly marked unverified?
 - [ ] Are your own recommendations and interpretive lines deliberately **un**sourced?
 - [ ] Are load-bearing figures corroborated by a second source?
 - [ ] Are community sources (Reddit, forums, YouTube) used only for claims about what
@@ -58,7 +66,7 @@ Run through this before sending. Any "no" means rewrite that part.
 - [ ] Same language as the question?
 - [ ] Domain terms left in their original language?
 - [ ] Second person, short sentences?
-- [ ] Under the word budget for this question type?
+- [ ] Under the word budget for this question type? If not, which whole section came out?
 
 ## Failure modes to watch for
 
@@ -76,6 +84,15 @@ Fix: rewrite each as the question that section answers.
 
 **The confident fabrication.** A precise-sounding number with no source.
 Fix: source it, give a range, or delete it.
+
+**The dressed-up fabrication.** A precise-sounding number *with* a source you did not
+open — the plausible domain, the homepage of an organisation that would know, a deep link
+you assembled from the URL pattern. Worse than the bare version, because the citation
+stops the reader checking.
+Fix: cite only what came back from a search or fetch in this task. If nothing did, say so.
+
+**The scattered bold.** Bold in the middle of every bullet instead of a label at the front.
+Fix: move it to the start and make it name what the bullet is about.
 
 **The stale fact.** A price or rule stated with no date.
 Fix: date it, or say the date couldn't be established.
